@@ -39,7 +39,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `updationDate`) VALUES
-(1, 'admin', '25f9e794323b453885f5181f1b624d0b', '2020-07-17 08:47:19');
+(1, 'Poojith L', 'c0a9318f6561d0f32a98662f087cdb4b', '2025-04-29 20:49:23');
 
 -- --------------------------------------------------------
 
@@ -50,7 +50,7 @@ CREATE TABLE `login`(
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 INSERT INTO `login`(`id`, `FullName`,`Password`) VALUES
-(2, 'dasdasd','62cc2d8b4bf2d8728120d052163a77df');
+(1, 'Poojith L','c0a9318f6561d0f32a98662f087cdb4b');
 --
 -- Table structure for table `tblblooddonars`
 --
@@ -75,7 +75,7 @@ CREATE TABLE `tblblooddonars` (
 --
 
 INSERT INTO `tblblooddonars` (`id`, `FullName`,`Password`, `MobileNumber`, `EmailId`, `Gender`, `Age`, `BloodGroup`, `Address`, `Message`, `PostingDate`, `status`) VALUES
-(2, 'dasdasd','62cc2d8b4bf2d8728120d052163a77df','41241241241', 'dasdasd@dfdsf.com', 'Male', 34, 'AB-', ' fsdfds', ' fsdf', '2017-06-30 20:48:11', 1);
+(1, 'Poojith L','c0a9318f6561d0f32a98662f087cdb4b','7022747501', 'lpoojith9@gmail.com', 'Male', 22, 'O+', 'Bengaluru', 'Hi, I am ready to donate blood', '2025-04-29 20:52:58', 1);
 
 -- --------------------------------------------------------
 
@@ -94,12 +94,14 @@ CREATE TABLE `tblbloodgroup` (
 --
 
 INSERT INTO `tblbloodgroup` (`id`, `BloodGroup`, `PostingDate`) VALUES
-(1, 'A-', '2017-06-30 20:33:50'),
-(2, 'AB-', '2017-06-30 20:34:00'),
-(3, 'O-', '2017-06-30 20:34:05'),
-(4, 'A-', '2017-06-30 20:34:10'),
-(5, 'A+', '2017-06-30 20:34:13'),
-(7, 'AB+', '2020-07-17 08:49:36');
+(1, 'A+', '2025-04-30 12:47:59'),
+(2, 'A-', '2025-04-30 12:48:02'),
+(3, 'B+', '2025-04-30 12:48:05'),
+(4, 'B-', '2025-04-30 12:48:08'),
+(5, 'O+', '2025-04-30 12:48:11'),
+(6, 'O-', '2025-04-30 12:48:14'),
+(7, 'AB+', '2025-04-30 12:48:17'),
+(8, 'AB-', '2025-04-30 12:48:20');
 
 -- --------------------------------------------------------
 
@@ -119,7 +121,7 @@ CREATE TABLE `tblcontactusinfo` (
 --
 
 INSERT INTO `tblcontactusinfo` (`id`, `Address`, `EmailId`, `ContactNo`) VALUES
-(1, 'DEMOOO																						', 'serbermz2020@gmail.com', '8585233222');
+(1, 'Bengaluru', 'lpoojith9@gmail.com', '7022747501');
 
 -- --------------------------------------------------------
 
@@ -142,10 +144,7 @@ CREATE TABLE `tblcontactusquery` (
 --
 
 INSERT INTO `tblcontactusquery` (`id`, `name`, `EmailId`, `ContactNumber`, `Message`, `PostingDate`, `status`) VALUES
-(2, 'caasda', 'webhostingamigo@gmail.com', '42342342', 'drftghjk', '2017-06-30 21:17:09', NULL),
-(3, 'caasda', 'webhostingamigo@gmail.com', '42342342', 'drftghjk', '2017-06-30 21:21:30', NULL),
-(4, 'te', 'sdfsdf@gmail.com', '75787875545', 'sfsdf sdg hs h sh', '2017-07-01 07:19:36', NULL),
-(5, 'Lyndon Bermoy', 'serbermz2020@gmail.com', '123456789', 'demo', '2020-07-17 08:50:20', 1);
+(1, 'Poojith L', 'lpoojith9@gmail.com', '7022747501', 'Hi, This website really saved our lifes', '2025-04-29 21:11:06', 1);
 
 -- --------------------------------------------------------
 
@@ -165,8 +164,8 @@ CREATE TABLE `tblpages` (
 --
 
 INSERT INTO `tblpages` (`id`, `PageName`, `type`, `detail`) VALUES
-(2, 'Why Become Donor', 'donor', 'demo'),
-(3, 'About Us ', 'aboutus', '										<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\">Demo</span>\r\n										');
+(1, 'Why Become Donor', 'donor', 'Demo'),
+(2, 'About Us ', 'aboutus', '<span style=\"color: rgb(0, 0, 0); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\">Demo</span>\r\n');
 
 --
 -- Indexes for dumped tables
